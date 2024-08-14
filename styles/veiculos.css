@@ -99,6 +99,9 @@ span{
     justify-content: space-around;
     align-items: center;    
 }
+.espacos > p:hover{
+    color: #ff6600;
+}
 
 /* Carrossel */
 #caixa {
