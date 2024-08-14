@@ -87,7 +87,8 @@ span{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
     z-index: 6;
     background-color: #ecedf2;
 }
@@ -193,7 +194,8 @@ span{
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 15px 15px 30px #bebebe,
+             -1px -1px 30px #ffffff;
     border:solid 2px;
     border-color: #ecedf2;
     padding: 2%;
@@ -235,7 +237,8 @@ span{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
 }
 
 .item {
@@ -276,7 +279,8 @@ span{
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
     padding-left: 5%;
     padding-top: 2%;
 }
@@ -346,3 +350,9 @@ input::placeholder {
 
 /*----------------*/
 
+#footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 2%;
+    background-color: #000;
+}
